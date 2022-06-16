@@ -1,0 +1,21 @@
+.avatar {
+    position:absolute;
+    right: 5px;
+    bottom: 2px;  
+    box-shadow: 5px 10px 15px rgb(1 1 1 / 35%);
+    width: 40px;
+    height: 40px;
+}
+
+.my-frame{
+    width: var(--popupWidth, 500px);
+    height:var(--popupHeight, calc(85%));;
+    position: absolute;
+    right: 25px;
+    bottom: 55px;
+    background: #fff;
+    box-shadow: 1px 4px 15px rgb(1 1 1 / 35%);
+    border-radius: 5px;
+    overflow: hidden;
+    display: block
+}

@@ -1,0 +1,7 @@
+<template>
+    <!-- lightning-avatar src - bot image url-->
+    <lightning-avatar variant="circle" src={avaamobotIconURL} class="avatar" onclick={gotowebsite}></lightning-avatar>
+    <div if:true={openLink}>
+        <iframe src={avaamobotURL} class="my-frame" frameborder="0" ></iframe> 
+    </div>
+</template>
